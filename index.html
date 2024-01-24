@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño de layout</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/hamburguesa.css">
+  <link rel="stylesheet" href="styles/cards.css">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/templates/images/Avengers_(comics)-Symbol-Logo.wine.svg" alt="logo" onclick="audio4.play()">
+    <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+    <nav class="nav" id="nav">
+      <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+      <ul class="nav-list">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="formulario.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero-container">
+      <div class="hero-body">
+        <div class="titulo">
+          <img src="templates/images/Avengers_(comics)-White-Logo.wine.svg" class="logo2" onclick="audio4.play()" />
+          <h1> Los vengadores</h1>
+          <span>Los vengadores, también conocidos "The Avengers" en inglés, son un grupo formado por los héroes más
+            poderosos de la Tierra.Se encargan de proteger el planeta de amenazas, tanto internas como externas.</span>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+    <section class="cuerpo">
+      <hr>
+      <div class="texto">
+        <hr>
+        <span>Con la llegada del dios del engaño Loki a la Tierra con el objetivo de doblegar a la raza humana y
+          conquistar nuestro mundo, se llevó a cabo finalmente la iniciativa Vengadores, con el fin de acabar con la
+          amenaza y proteger el planeta.<br />
+          Esta iniciativa, que llevaba años preparándose, fue encabezada por Nick Furia, el director de S.H.I.E.L.D, una
+          organización encargada de mantener la seguridad mundial. Gracias a esto, se reunió a dicho grupo de personas
+          con
+          habilidades extraordinarias
+          para derrotar a Loki y su ejército. Desde entonces han protegido el planeta de numerosas amenazas. A
+          continuación se muestran algunos de sus integrantes.</span>
+      </div>
+    </section>
+    <section class="cont">
+
+      <div class="cards-container">
+
+        <div class="cards-body">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <div class="inner">
+                <!--
+                <img src="https://i.imgur.com/C9DWUDi.png" class="icon" />
+              -->
+                <h3>IRON MAN</h3>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="inner">
+
+                <!--
+                <img src="https://i.imgur.com/C9DWUDi.png" class="icon" />
+              -->
+                <h3>Tony Stark</h3>
+                <p>
+                  Ingeniero, excéntrico millonario y mente prodigiosa. Después de un largo recorrido en la industria de
+                  las armas, dejó de usar su tecnología para ayudar a destruir
+                  y comenzó a usarla para ayudar a proteger enfundándose su armadura.
+                </p>
+                <button type="button" class="btn btn-warning" id="info1" onclick="audio1.play();">Más
+                  información</button>
+              </div>
+            </div>
+          </div>
+          <img src="templates/images/ironman-01.png" class="iron" id="iron">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <div class="inner">
+                <!--
+                <img src="https://i.imgur.com/C9DWUDi.png" class="icon" />
+              -->
+                <h3>THOR</h3>
+
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="inner">
+                <!--
+                <img src="https://i.imgur.com/C9DWUDi.png" class="icon" />
+              -->
+                <h3>Thor Odinson</h3>
+                <p>
+                  Thor, hijo de Odín, dios del trueno. Digno de levantar el martillo Mjolnir, se convirtió en protector
+                  de La Tierra después de que
+                  su hermano Loki, dios del engaño intentara conquistarla.
+                </p>
+                <button type="button" class="btn btn-primary" id="info2" onclick="audio2.play()">Más
+                  información</button>
+              </div>
+            </div>
+          </div>
+          <img src="templates/images/martillo.webp" class="martillo" id="martillo">
+          <div class="flip-card">
+            <div class="flip-card-front">
+              <div class="inner">
+
+                <h3>CAPITÁN AMÉRICA</h3>
+
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <div class="inner">
+                <h3>Steve Rogers</h3>
+                <p>
+                  El primer vengador, el elegido para ser el primero en usar el suero del super-soldado, más por su
+                  integridad y sentido del honor que por su fuerza. Valiéndose de su escudo
+                  es un ferviente defensor de la libertad y la justicia.
+                </p>
+                <button type="button" class="btn btn-danger" id="info3" onclick="audio3.play();">Más
+                  información</button>
+              </div>
+            </div>
+          </div>
+          <img src="templates/images/captain_america_PNG60.png" class="escudo" id="escudo">
+        </div>
+
+
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="templates/images/Avengers_(comics)-Symbol-White-Logo.wine(1).svg" alt="Logo"
+              onclick="audio4.play();">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>Somos los protectores del planeta Tierra</p>
+        <p>Si no podemos protegerlo, sin duda lo vengaremos</p>
+      </div>
+      <div class="box">
+        <h2>Redes sociales</h2>
+        <div class="red-social">
+          <img src="/templates/images/x-social-media-logo-icon.webp" class="redes">
+          <img src="/templates/images/Instagram_icon.png.webp" class="redes">
+          <img src="/templates/images/youtube-logo-png-3566.png" class="redes">
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2024 <b>The Avengers</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>.
