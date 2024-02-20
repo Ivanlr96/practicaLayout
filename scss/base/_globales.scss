@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"fire";
+    src: url("/assets/FiraSans-Regular.ttf");
+  }
+  
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    font-family: "fire" !important;
+
+}
+
+body {
+    font-family: "fire" !important;
+}

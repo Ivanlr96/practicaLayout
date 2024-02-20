@@ -1,0 +1,196 @@
+
+
+.logo2 {
+
+    align-items: center;
+    position: absolute;
+    height: 30%;
+    top: 30%;
+
+}
+.titulo {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    top: 20%;
+
+}
+
+.texto {
+    display:flex;
+    flex-direction: column;
+}
+.video {
+    position: relative;
+    max-height: 70rem;
+    overflow: hidden;
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: rgb(31, 5, 182);
+        background: linear-gradient(270deg, rgba(31, 40, 216, 0.5) 0%, rgba(56, 69, 187, 0.3) 100%);
+    }
+
+    video {
+        width: 100%;
+        display: block;
+       
+        
+  
+    }
+}
+
+
+.contenido-video {
+    z-index: 10 ;
+    h2 {
+        color: white;
+        font-size: 6rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .contenido-video {
+        h2 {
+            font-size: 4rem;
+            top:10%;
+        }
+
+        .logo2 {
+   
+            height: 20%;
+            top: 11%;
+        
+
+ 
+        }
+    }
+}
+@media (max-width: 650px) {
+    .contenido-video {
+        h2 {
+            font-size: 3rem;
+            top:9%;
+        }
+
+        .logo2 {
+   
+            height: 20%;
+            top: 12%;
+        
+
+ 
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contenido-video {
+        h2 {
+            font-size: 4rem;
+            top:10%;
+        }
+
+        .logo2 {
+   
+            height: 25%;
+            top: 11%;
+        
+
+ 
+        }
+    }
+}
+@media (max-width: 790px) {
+    .contenido-video {
+        h2 {
+            font-size: 3.5rem;
+            top:10%;
+        }
+
+        .logo2 {
+   
+            height: 25%;
+            top: 20%;
+        
+
+ 
+        }
+    }
+}
+@media (max-width: 550px) {
+    .contenido-video {
+        h2 {
+            font-size: 2rem;
+            top:9%;
+        }
+
+        .logo2 {
+   
+            height: 25%;
+            top: 15%;
+            right: 80%;
+
+ 
+        }
+        
+       
+        
+    }
+
+    
+}
+
+@media (max-width: 400px) {
+    .contenido-video {
+        h2 {
+            font-size: 1.5rem;
+            top:9%;
+        }
+
+        .logo2 {
+   
+            height: 25%;
+            top: 13%;
+            right: 80%;
+
+ 
+        }
+        
+       
+        
+    }
+
+    
+}
+
+@media (max-width: 300px) {
+    .contenido-video {
+        h2 {
+            font-size: 1rem;
+            top:9%;
+        }
+
+        .logo2 {
+   
+            height: 25%;
+            top: 14%;
+            right: 80%;
+
+ 
+        }
+        
+       
+        
+    }
+
+    
+}
+
+
